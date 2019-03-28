@@ -9,9 +9,7 @@ text based on a given corpus.
 All the work we have done for this assignment is fully documented in the
 following notebook:
   - [Notebook](notebooks/Markov.ipynb)
-
-The aim of this assignment is to use hidden markov model for text-generation.
-
+---
 **Dataset**: [Shakespeare's Plays](https://www.kaggle.com/kingburrito666/shakespeare-plays)
 
 __Strategy__:
@@ -26,14 +24,12 @@ Following strategy is adopted to accomplish the main goal of this assignment:
 In order to improve readability, the notebook is divided into sections based on the main task achieved in that section. Each of the section is described below:
 
 ## Section-1: Dataset Manipulation
----
 The following main goals are achieved in this section:
   - Dataset is loaded
   - Uninteresting lines are deleted from the dataset
   - Lines are converted into a list of string for further processing
   
 ## Section-2: Hidden Markov Model
----
 This section provides helper functions for building the hidden markov model on a text corpus. It is further divided into sub-section to increase modularity.
   - 2.1: Declaration of Global Control Switches
   - 2.2: Helper Functions for Text-Parsing
@@ -42,7 +38,6 @@ This section provides helper functions for building the hidden markov model on a
   - 2.5: User API for Predicting Text Given a Sequence of Words
 
 ## Section-3: Demonstration
----
 In this section, the hidden markov model is used for text-generation. For this purpose, a play of given length is written to demonstrate the correctness as well as extent and limitation of this model. Also the utility of user-API for text-generation given a word sequence is demonstrated.
 
 **ACKNOWLEDGEMENT**: Following source has been used to understand the principles of text-generation using HMM:
